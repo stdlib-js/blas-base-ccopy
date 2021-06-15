@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/blas-base-ccopy",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Copy values from one complex single-precision floating-point vector to another complex single-precision floating-point vector.",
   "license": "Apache-2.0",
   "author": {
