@@ -42,6 +42,7 @@
   },
   "dependencies": {
     "@stdlib/array-float32": "^0.0.x",
+    "@stdlib/types": "^0.0.x",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.x",
     "@stdlib/utils-library-manifest": "^0.0.x",
     "@stdlib/utils-try-require": "^0.0.x"
