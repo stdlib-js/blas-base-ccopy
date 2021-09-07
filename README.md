@@ -235,6 +235,22 @@ console.log( y.get( y.length-1 ).toString() );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/blas/base/cswap`][@stdlib/blas/base/cswap]: interchanges two complex single-precision floating-point vectors.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -297,6 +313,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
 [@stdlib/array/complex64]: https://github.com/stdlib-js/array-complex64
+
+<!-- <related-links> -->
+
+[@stdlib/blas/base/cswap]: https://github.com/stdlib-js/blas-base-cswap
+
+<!-- </related-links> -->
 
 </section>
 
