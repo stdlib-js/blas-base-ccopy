@@ -1,0 +1,44 @@
+{
+  "name": "@stdlib/blas-base-ccopy",
+  "version": "0.0.0",
+  "description": "Copy values from one complex single-precision floating-point vector to another complex single-precision floating-point vector.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/blas-base-ccopy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "mathematics",
+    "math",
+    "blas",
+    "level 1",
+    "linear",
+    "algebra",
+    "subroutines",
+    "ccopy",
+    "copy",
+    "cp",
+    "vector",
+    "typed",
+    "array",
+    "ndarray",
+    "complex",
+    "complex64",
+    "float",
+    "float32",
+    "single",
+    "float32array"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
