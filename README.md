@@ -31,6 +31,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ccopy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-ccopy@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-base-ccopy/tags). For example,
+
+```javascript
 import ccopy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-ccopy@v0.0.7-esm/index.mjs';
 ```
 
@@ -201,7 +206,7 @@ var im = imagf( z );
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@esm/index.mjs';
 import Complex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@esm/index.mjs';
-import ccopy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-ccopy@v0.0.7-esm/index.mjs';
+import ccopy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-ccopy@esm/index.mjs';
 
 var re = discreteUniform.factory( 0, 10 );
 var im = discreteUniform.factory( -5, 5 );
