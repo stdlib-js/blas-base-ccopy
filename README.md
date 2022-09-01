@@ -24,43 +24,30 @@ limitations under the License.
 
 > Copy values from one complex single-precision floating-point vector to another complex single-precision floating-point vector.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/blas-base-ccopy
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-ccopy = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-ccopy@umd/browser.js' )
-```
-The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-base-ccopy/tags). For example,
-
-```javascript
-ccopy = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-ccopy@v0.0.7-umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var ccopy = require( 'path/to/vendor/umd/blas-base-ccopy/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-ccopy@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.ccopy;
-})();
-</script>
+var ccopy = require( '@stdlib/blas-base-ccopy' );
 ```
 
 #### ccopy( N, x, strideX, y, strideY )
@@ -222,15 +209,10 @@ var im = imagf( z );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-ccopy@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var discreteUniform = require( '@stdlib/random-base-discrete-uniform' );
+var Complex64Array = require( '@stdlib/array-complex64' );
+var ccopy = require( '@stdlib/blas-base-ccopy' );
 
 var re = discreteUniform.factory( 0, 10 );
 var im = discreteUniform.factory( -5, 5 );
@@ -249,11 +231,6 @@ console.log( y.get( 0 ).toString() );
 // Copy elements from `x` into `y` starting from the end of `y`:
 ccopy( x.length, x, 1, y, -1 );
 console.log( y.get( y.length-1 ).toString() );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -313,8 +290,8 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/blas-base-ccopy.svg
 [npm-url]: https://npmjs.org/package/@stdlib/blas-base-ccopy
 
-[test-image]: https://github.com/stdlib-js/blas-base-ccopy/actions/workflows/test.yml/badge.svg?branch=v0.0.7
-[test-url]: https://github.com/stdlib-js/blas-base-ccopy/actions/workflows/test.yml?query=branch:v0.0.7
+[test-image]: https://github.com/stdlib-js/blas-base-ccopy/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/blas-base-ccopy/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/blas-base-ccopy/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/blas-base-ccopy?branch=main
@@ -349,11 +326,11 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
-[@stdlib/array/complex64]: https://github.com/stdlib-js/array-complex64/tree/umd
+[@stdlib/array/complex64]: https://github.com/stdlib-js/array-complex64
 
 <!-- <related-links> -->
 
-[@stdlib/blas/base/cswap]: https://github.com/stdlib-js/blas-base-cswap/tree/umd
+[@stdlib/blas/base/cswap]: https://github.com/stdlib-js/blas-base-cswap
 
 <!-- </related-links> -->
 
