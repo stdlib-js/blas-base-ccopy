@@ -31,7 +31,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ccopy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-ccopy@esm/index.mjs';
+import ccopy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-ccopy@v0.0.8-esm/index.mjs';
 ```
 
 #### ccopy( N, x, strideX, y, strideY )
@@ -201,7 +201,7 @@ var im = imagf( z );
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@esm/index.mjs';
 import Complex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@esm/index.mjs';
-import ccopy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-ccopy@esm/index.mjs';
+import ccopy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-ccopy@v0.0.8-esm/index.mjs';
 
 var re = discreteUniform.factory( 0, 10 );
 var im = discreteUniform.factory( -5, 5 );
