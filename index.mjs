@@ -1,4 +1,0 @@
-// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import e from"https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-nonenumerable-read-only-property@esm/index.mjs";import r from"https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@esm/index.mjs";function t(e,t,n,f,s){var i,a,o,u,d,l,b;if(e<=0)return f;if(i=new r(t.buffer,t.byteOffset,2*t.length),a=new r(f.buffer,f.byteOffset,2*f.length),1===n&&1===s){for(b=0;b<2*e;b+=2)a[b]=i[b],a[b+1]=i[b+1];return f}for(d=n<0?2*(1-e)*n:0,l=s<0?2*(1-e)*s:0,o=2*n,u=2*s,b=0;b<e;b++)a[l]=i[d],a[l+1]=i[d+1],d+=o,l+=u;return f}function n(e,t,n,f,s,i,a){var o,u,d,l,b,m,y;if(e<=0)return s;for(o=new r(t.buffer,t.byteOffset,2*t.length),u=new r(s.buffer,s.byteOffset,2*s.length),d=2*n,l=2*i,b=2*f,m=2*a,y=0;y<e;y++)u[m]=o[b],u[m+1]=o[b+1],b+=d,m+=l;return s}e(t,"ndarray",n);export{t as default,n as ndarray};
-//# sourceMappingURL=index.mjs.map
