@@ -41,8 +41,12 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-float32": "^0.0.x",
     "@stdlib/assert-is-error": "^0.0.x",
+    "@stdlib/napi-argv": "^0.0.x",
+    "@stdlib/napi-argv-int64": "^0.0.x",
+    "@stdlib/napi-argv-strided-complex64array": "^0.0.x",
+    "@stdlib/napi-export": "^0.0.x",
+    "@stdlib/strided-base-reinterpret-complex64": "^0.0.x",
     "@stdlib/types": "^0.0.x",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.x",
     "@stdlib/utils-library-manifest": "^0.0.x",
@@ -50,17 +54,20 @@
   },
   "devDependencies": {
     "@stdlib/array-complex64": "^0.0.x",
+    "@stdlib/array-filled-by": "^0.0.x",
+    "@stdlib/array-float32": "^0.0.x",
     "@stdlib/assert-is-browser": "^0.0.x",
     "@stdlib/bench": "^0.0.x",
+    "@stdlib/complex-float32": "^0.0.x",
     "@stdlib/math-base-assert-is-nan": "^0.0.x",
-    "@stdlib/math-base-special-floor": "^0.0.x",
     "@stdlib/math-base-special-pow": "^0.0.x",
     "@stdlib/random-base-discrete-uniform": "^0.0.x",
-    "@stdlib/random-base-randu": "^0.0.x",
+    "@stdlib/random-base-uniform": "^0.0.x",
+    "@stdlib/strided-base-min-view-buffer-index": "^0.0.x",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
-    "tap-min": "2.x.x"
+    "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
   },
   "engines": {
     "node": ">=0.10.0",
@@ -101,6 +108,9 @@
     "single",
     "float32array"
   ],
+  "__stdlib__": {
+    "wasm": false
+  },
   "funding": {
     "type": "patreon",
     "url": "https://www.patreon.com/athan"
