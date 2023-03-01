@@ -239,7 +239,7 @@ console.log( y.get( y.length-1 ).toString() );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/blas/base/cswap`][@stdlib/blas/base/cswap]</span><span class="delimiter">: </span><span class="description">interchanges two complex single-precision floating-point vectors.</span>
+-   <span class="package-name">[`@stdlib/blas-base/cswap`][@stdlib/blas/base/cswap]</span><span class="delimiter">: </span><span class="description">interchanges two complex single-precision floating-point vectors.</span>
 
 </section>
 
