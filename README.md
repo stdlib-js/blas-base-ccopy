@@ -76,7 +76,7 @@ var im = imagf( z );
 
 The function has the following parameters:
 
--   **N**: number of values to copy.
+-   **N**: number of indexed elements.
 -   **x**: input [`Complex64Array`][@stdlib/array/complex64].
 -   **strideX**: index increment for `x`.
 -   **y**: destination [`Complex64Array`][@stdlib/array/complex64].
@@ -298,7 +298,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
