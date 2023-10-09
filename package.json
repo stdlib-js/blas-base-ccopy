@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/blas-base-ccopy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Copy values from one complex single-precision floating-point vector to another complex single-precision floating-point vector.",
   "license": "Apache-2.0",
   "author": {
@@ -46,7 +46,7 @@
     "@stdlib/napi-argv-int64": "^0.1.1",
     "@stdlib/napi-argv-strided-complex64array": "^0.1.1",
     "@stdlib/napi-export": "^0.1.1",
-    "@stdlib/strided-base-reinterpret-complex64": "^0.1.0",
+    "@stdlib/strided-base-reinterpret-complex64": "^0.1.1",
     "@stdlib/types": "^0.1.0",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.1",
     "@stdlib/utils-library-manifest": "^0.1.1",
