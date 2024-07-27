@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ccopy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-ccopy@deno/mod.js';
+import ccopy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-ccopy@v0.3.0-deno/mod.js';
 ```
 
 #### ccopy( N, x, strideX, y, strideY )
@@ -205,7 +205,7 @@ var im = imagf( z );
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@deno/mod.js';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
 import Complex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-ctor@deno/mod.js';
-import ccopy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-ccopy@deno/mod.js';
+import ccopy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-ccopy@v0.3.0-deno/mod.js';
 
 function rand() {
     return new Complex64( discreteUniform( 0, 10 ), discreteUniform( -5, 5 ) );
