@@ -48,7 +48,7 @@
     "@stdlib/napi-argv-strided-complex64array": "^0.2.2",
     "@stdlib/napi-export": "^0.2.2",
     "@stdlib/strided-base-reinterpret-complex64": "^0.2.1",
-    "@stdlib/types": "^0.4.1",
+    "@stdlib/types": "^0.4.3",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2",
     "@stdlib/utils-library-manifest": "^0.2.2",
     "@stdlib/utils-try-require": "^0.2.2"
