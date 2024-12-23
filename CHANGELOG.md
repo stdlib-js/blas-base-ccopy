@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-21)
+## Unreleased (2024-12-23)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
 -   [`8684eb4`](https://github.com/stdlib-js/stdlib/commit/8684eb429498a239bff9bdd72f443dd1cd981552) - **docs:** update related packages sections [(#4114)](https://github.com/stdlib-js/stdlib/pull/4114) _(by stdlib-bot, Athan Reines)_
 -   [`be9fdef`](https://github.com/stdlib-js/stdlib/commit/be9fdef8ee4a08af772953051f18972be7011131) - **style:** resolve lint error _(by Athan Reines)_
 -   [`d7925a2`](https://github.com/stdlib-js/stdlib/commit/d7925a2cc0b94ebe0299ed39d2f463ecc3fd1149) - **feat:** update JavaScipt implementation and add C `ndarray` implementation for `blas/base/ccopy` [(#3063)](https://github.com/stdlib-js/stdlib/pull/3063) _(by Aman Bhansali, Athan Reines)_
@@ -38,10 +39,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Aman Bhansali
 -   Athan Reines
+-   Philipp Burckhardt
 
 </section>
 
