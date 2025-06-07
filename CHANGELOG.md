@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-01)
+## Unreleased (2025-06-07)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`51bf6f9`](https://github.com/stdlib-js/stdlib/commit/51bf6f9d2bb027aacecda87e02f957badbc246b0) - **bench:** fix formatting _(by Athan Reines)_
 -   [`f2f1317`](https://github.com/stdlib-js/stdlib/commit/f2f1317f36f2c931b921eac1a2f40630b588a2dd) - **docs:** change variable naming in `blas/base/ccopy` [(#6820)](https://github.com/stdlib-js/stdlib/pull/6820) _(by Shabareesh Shetty)_
 -   [`399942d`](https://github.com/stdlib-js/stdlib/commit/399942d86d04b5b5aba4e41d6957f3089ad58ab1) - **docs:** update examples for `blas/base/ccopy` [(#4836)](https://github.com/stdlib-js/stdlib/pull/4836) _(by Gururaj Gurram, Athan Reines)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
