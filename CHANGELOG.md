@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-07)
+## Unreleased (2025-07-21)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`a9776fd`](https://github.com/stdlib-js/stdlib/commit/a9776fdca0331c293eade49bd195836fbb434999) - **refactor:** update include header guards for single precision complex packages [(#7708)](https://github.com/stdlib-js/stdlib/pull/7708) _(by Shabareesh Shetty)_
 -   [`09c9ceb`](https://github.com/stdlib-js/stdlib/commit/09c9ceb58c6dd23c10f1980094851983c57d693f) - **chore:** fix formatting _(by Athan Reines)_
 -   [`51bf6f9`](https://github.com/stdlib-js/stdlib/commit/51bf6f9d2bb027aacecda87e02f957badbc246b0) - **bench:** fix formatting _(by Athan Reines)_
 -   [`f2f1317`](https://github.com/stdlib-js/stdlib/commit/f2f1317f36f2c931b921eac1a2f40630b588a2dd) - **docs:** change variable naming in `blas/base/ccopy` [(#6820)](https://github.com/stdlib-js/stdlib/pull/6820) _(by Shabareesh Shetty)_
