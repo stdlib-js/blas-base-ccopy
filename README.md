@@ -33,7 +33,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Copy values from one complex single-precision floating-point vector to another complex single-precision floating-point vector.
+> Copy values from one single-precision complex floating-point vector to another single-precision complex floating-point vector.
 
 <section class="installation">
 
@@ -336,7 +336,7 @@ int main( void ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/blas-base/cswap`][@stdlib/blas/base/cswap]</span><span class="delimiter">: </span><span class="description">interchange two complex single-precision floating-point vectors.</span>
+-   <span class="package-name">[`@stdlib/blas-base/cswap`][@stdlib/blas/base/cswap]</span><span class="delimiter">: </span><span class="description">interchange two single-precision complex floating-point vectors.</span>
 
 </section>
 
